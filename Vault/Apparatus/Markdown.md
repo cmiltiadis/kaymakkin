@@ -16,17 +16,12 @@ Markdown is used for a variety of applications, such as note-taking; technical d
 1. You can chose from a variety of free and lightweight MD editors (software). 
 	3. You have a *fully customizable user interface*.... (no more Word white background)
 3. **Distraction free writing**  
-2. You can use it for a variety of workflows such as [[Zettelkasten]] and [[Bullet Journaling]]. 
-4. Adaptable for different purposes, also academic writing. 
-
+4. Adaptable for different purposes and workflows such as academic writing, [[Zettelkasten]] and [[Bullet Journaling]]. 
 
 The following provides some instructions about
 - [[#Writing in Markdown]], 
 - [[#Publishing Markdown documents]]
 
-# Publishing Markdown documents 
-
-Markdown is fully supported by [[Pandoc]],  the universal document converter. 
 
 # Writing in Markdown 
 
@@ -111,14 +106,23 @@ This looks like this
 
 ```
 
-## Source code & verbatim 
+## Source code blocks 
 
-Use backticks for code 
+Enclose code in backticks \` 
+This will also ignore MD formatting. 
+Example: 
+`this is a single-line code block, all MD formatting is ignored like # ![]() etc.`
 
- 
-# Block quotes 
+Multiline code blocks are enclosed in triple backticks 
+```
+this is 
+a multiline 
+code 
+block 
+```
+## Block quotes 
 
-To insert a blockquote prefix some text with `> `. 
+To insert a blockquote prefix some text with `> My quote text`. 
 For example: 
 
 > This is a blockquote (which is supposed to be quote longer than 30 words or something like this), and usually is followed by a reference. (Author 2024)
@@ -129,7 +133,24 @@ In plain text this looks like:
 > This is a blockquote (which is supposed to be quote longer than 30 words or something like this), and usually is followed by a reference. (Author 2024)
 ```
 
+# Links 
 
+[Kaymakkin Workshop Github repository](https://github.com/cmiltiadis/kaymakkin)
+```
+[Kaymakkin Workshop Github repository](https://github.com/cmiltiadis/kaymakkin)
+```
+
+# Images 
+
+![Description](images/markdown-mark.svg)
+
+```
+![Description](images/markdown-mark.svg)
+```
+
+# Publishing Markdown documents 
+
+Markdown is fully supported by [[Pandoc]],  the universal document converter. 
 #  Notes 
 - [Markdown guide](https://www.markdownguide.org/)
 - [Markdown (wikipedia)](https://en.wikipedia.org/wiki/Markdown)
