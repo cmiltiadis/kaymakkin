@@ -2,6 +2,7 @@
 tags:
   - FOSS
   - open-standard
+  - free
 ---
 ![](images/markdown-mark.svg)
 # About 
