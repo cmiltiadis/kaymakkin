@@ -1,4 +1,5 @@
 ---
+title: "PanWriter"
 tags:
   - FOSS
   - Markdown
@@ -12,4 +13,4 @@ It allows authoring and editing MD documents and exporting to various different 
 Note: It requires installing [[Pandoc]]. 
 # Notes 
 - https://panwriter.com/
-- See also an online version of Panwriter at https://panwriter.com/try/
+- See also a web-browser version of Panwriter at https://panwriter.com/try/

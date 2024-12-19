@@ -1,14 +1,16 @@
 ---
+title: "Markdown"
 tags:
   - FOSS
   - open-standard
   - free
+  - Markdown
 ---
-![](images/markdown-mark.svg)
+![](Markdown-mark.svg)
 # About 
 Markdown (MD) is a open simple markup language for human-friendly writing. 
 It was developed around 2004, and has grown very popular ever since. 
-Markdown is used for a variety of applications, such as note-taking; technical documentation (e.g. GitHub, and Wikis), journaling, as well as [[Zettelkasten]] and [[Bullet Journaling]] workflows. 
+Markdown is used for a variety of applications, such as note-taking; technical documentation (e.g. GitHub, and Wikis), journaling, as well as [[Zettelkasten]] and [[Bullet journaling]] workflows. 
 ## Why write in Markdown 
 1. It's a free and open standard 
 3. It's a **plain-text document format** 
@@ -17,17 +19,17 @@ Markdown is used for a variety of applications, such as note-taking; technical d
 1. You can chose from a variety of free and lightweight MD editors (software). 
 	3. You have a *fully customizable user interface*.... (no more Word white background)
 3. **Distraction free writing**  
-4. Adaptable for different purposes and workflows such as academic writing, [[Zettelkasten]] and [[Bullet Journaling]]. 
+4. Adaptable for different purposes and workflows such as academic writing, [[Zettelkasten]] and [[Bullet journaling]]. 
 
 The following provides some instructions about
 - [[#Writing in Markdown]], 
 - [[#Publishing Markdown documents]]
 
-
 # Writing in Markdown 
 
-The great thing about writing in Markdown is that it's make for humans. 
-Not for printers, not for paper, or anything, but humans. 
+The great thing about writing in Markdown is that it's made for humans--not for printers, not for paper, or anything, but humans. 
+
+## Lines & Paragraphs
 
 So to write a paragraph, just start writing. 
 Each sentence can be a new line.
@@ -37,6 +39,7 @@ To start a new paragraph just leave a new line.
 ## Text formatting 
 
 Markdown supports *italics*, **bold**, and ***bold italics***. 
+These are formatted by enclosing text within single, double, or triple asterisks.  
 
 Italics:  *some text inside asterisks*   
 Bold: **some text inside double asterisks**
@@ -48,6 +51,38 @@ Italics:  *some text inside asterisks*
 Bold: **some text inside double asterisks**
 Bold-italics: ***some text inside triple asterisks***
 ```
+
+## Additional MD syntax 
+
+### Math 
+
+Enclose math syntax within dollar signs: 
+
+```
+$x^2$
+```
+
+$x^2$ 
+
+
+### Escape character 
+
+Use a backslash (`\`) to prevent rendering any Markdown specific characters, for example \#  (which is used for headings). 
+
+```
+\# 
+```
+
+### Horizontal line 
+Use 3 dashes to make a horizontal line. 
+Note: leave an empty line before, otherwise the previous line will be rendered as a heading. 
+
+
+```
+---
+```
+
+---
 
 ## Lists 
 
@@ -74,39 +109,66 @@ This is an unordered list:
 	- Tab to indent 
 - Shift-tab to outdent 
 - Double enter to exit 
+
+example 
+```
+- some item 
+- some other item
+	- sub item 
+```
+
 ### Checklists  
 
 This is a checklist, for, let's say my tasks: 
 1. [ ] Some task 
-3. [ ] Some other task
-4. [ ] Learn [[#Writing in markdown]]
+2. [ ] Some other task
+3. [X] Learn  to write in Markdown
+
+```
+1. [ ] Some task 
+2. [ ] Some other task
+3. [X] Learn  to write in Markdown
+```
+
+
 ## Tables 
-
-To insert a table in Obsidian, just right-click Insert/Table. 
-Alternatively, do 
-
-```
-|1|2|
-|-| 
-```
-
-
-Use Tab and Shift-tab to navigate between cells.  
-
 | Column 1 | Column 2 |
 | -------- | -------- |
 | Item 1   | item 2   |
 | item 3   | etc.     |
 
-This looks like this 
+Formatting Markdown tables 
 ```
 | Column 1 | Column 2 |
 | -------- | -------- |
 | Item 1   | item 2   |
 | item 3   | etc.     |
+```
+Note that columns need not be visually aligned. For example, the following table is equivalent to the previous, albeit more difficult to read. 
+
+```
+| Column 1 |Column 2 |
+| - | ---- |
+| Item 1| item 2 |
+| item 3| etc. |
+```
+
+### Table column alignment 
+
+| Left aligned | Center aligned | Right Aligned |
+| :----------- | :------------: | ------------: |
+| 1            |       2        |             3 |
+| 4            |       5        |             6 |
+
+```
+| Left aligned | Center aligned | Right Aligned |
+| :----------- | :------------: | ------------: |
+| 1            |       2        |             3 |
+| 4            |       5        |             6 |
 
 ```
 
+Markdown editors such as [[Obsidian]] provide autoformatting for tables (see [[Obsidian#Useful tips]]). 
 ## Source code blocks 
 
 Enclose code in backticks \` 
@@ -143,11 +205,35 @@ In plain text this looks like:
 
 # Images 
 
-![Description](images/markdown-mark.svg)
+![Description](Markdown-mark.svg)
 
 ```
 ![Description](images/markdown-mark.svg)
 ```
+
+# Comments 
+
+Markdown uses the HTML convention for notes. 
+
+Example 
+```
+<!-- this is a comment; it will not be exported -->
+
+<!-- 
+comments can 
+also be 
+multi-line
+-->
+```
+
+
+<!-- this is a comment; it will not be exported -->
+
+<!-- 
+comments can 
+also be 
+multi-line
+-->
 
 # Publishing Markdown documents 
 

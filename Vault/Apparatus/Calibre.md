@@ -1,10 +1,12 @@
 ---
+title: Calibre
 tags:
   - FOSS
   - software
   - library-management
+  - cross-platform
 ---
-![](images/Calibre_logo.png)
+![](Calibre_logo.png)
 
 # About
 [Calibre](https://calibre-ebook.com/) is a *free & open source software* (FOSS) for e-book management & library organization. 
@@ -33,12 +35,12 @@ Calibre also allows
 *Edit metadata* dialog
 
 1. Enter ISBN number in the IDs field in the form `isbn:123-4567-8910` 
-   ![](images/screenshots/calibre-metadata.png)
+   ![img1](calibre-metadata.png)
 
 2. Press D or click Download Metadata (Zotero will try to get the bibliographic data of this item based on the provided ISBN) 
 3. Select from possibly multiple matches that could potentially provide a cover image, and a text description, and select OK. 
-   ![](images/screenshots/calibre-metadata-download.png)
+   ![img2](calibre-metadata-download.png)
 3. In the next dialog, select from available book cover images
-   ![](calibre-metadata-cover.png)
+   ![img3](calibre-metadata-cover.png)
 4. Finally, review the item's metadata, and click OK to save 
-   ![](images/screenshots/calibre-metadata-review.png)
+   ![img4](calibre-metadata-review.png)
