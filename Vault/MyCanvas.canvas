@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"8b5677b88b1e68ff","x":-325,"y":160,"width":200,"height":200,"color":"2","type":"file","file":"Recipes/Tahini dip.md"},
-		{"id":"c70bb7330ffaedd4","x":-20,"y":0,"width":250,"height":60,"type":"text","text":"Something\n- point 1 \n- point 2 \n- point 3"}
-	],
-	"edges":[
-		{"id":"3544d2cc4595ef3e","fromNode":"8b5677b88b1e68ff","fromSide":"right","toNode":"c70bb7330ffaedd4","toSide":"left"}
-	]
-}

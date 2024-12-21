@@ -7,6 +7,7 @@ tags:
   - software
   - cross-platform
   - knowledge-organization
+img: obsidian-logo-old.png
 ---
 ![](obsidian-logo-old.png)
 # About 
@@ -21,9 +22,18 @@ However, it's not open source.
 Nevertheless, all content created with Obsidian is stored locally, and is thus safe. 
 A paid subscription is only required for syncing vaults with the Obsidian cloud.
 
+Go to: 
+- [[#Interface]], 
+- [[#Obsidian-specific syntax]], 
+- [[#Plugins]], 
+- [[#Note Templates]], 
+- [[#Useful tips]]
+- [[#Useful shortcuts]]
+- [[#Notes]]
+
 # Interface 
 
-- Top toolbar: Note tabs 
+- Top toolbar: Tabs with open notes 
 - Bottom right: Document word/character/backlinks counter 
 
 Panes: 
@@ -142,7 +152,8 @@ See also [Dann Berg - How to create a template in Obsidian (Beginner's Tutorial)
 # Useful tips 
 
 - Without highlighting any text, copy and cut, operates on a whole line of text. 
-- Copying and pasting a text from a browser, for example, will carry over links and headings. 
+- Copying and pasting a text from a browser, for example, will carry over formatting including links. 
+	- To paste in plain text do Cmd/Ctrl+Shift+V 
 - The font, font-size, dark/light appearance of the Obsidian editor can be changed in the settings. 
 - All Obsidian commands are accessible via Ctrl/Cmd+P, and can be assigned to custom keyboard shortcuts. 
 - Obsidian vaults can be backed up, synchronized, and versioned using [[Git]].  
@@ -183,13 +194,15 @@ For Community Plugins, the *Browse plugins* page shows how many times each plugi
 After a Community plugin is installed, it appears at the bottom of the settings list. 
 Remember to enable each plugin after installing it. 
 ## Notable community plugins 
-- Templater -- an advanced configuration for templates. 
+- [Templater](https://github.com/SilentVoid13/Templater) -- a plugin for advanced template configurations. 
 - Pandoc -- an interface for [[Pandoc]] 
 - Zotero Integration -- an interface for[[Zotero]]
 - Git -- an interface for [[Git]] versioning
+- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/), for dynamically creating lists or tables from Vault content.  
 # Notes 
 - https://obsidian.md/
 ## Workflow presentations and demonstrations of Obsidian 
 - [No Boilerplate - Hack your brain with Obsidian.md (YouTube)](https://www.youtube.com/watch?v=DbsAQSIKQXk)
 - [Odysseas - Obsidian: The King of Learning Tools (FULL GUIDE + SETUP) (YouTube)](https://www.youtube.com/watch?v=hSTy_BInQs8) 
 - [Dann Berg - How to create a template in Obsidian (Beginner's Tutorial) (YouTube)](https://www.youtube.com/watch?v=91H_0ii4S-A) 
+- [Nicole van der Hoeven - How to use the Obsidian Dataview plugin (YouTube)](https://www.youtube.com/watch?v=JTObSymEvWA)
