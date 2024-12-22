@@ -77,14 +77,14 @@ Library organization
 # Vault contents 
 
 See either: 
-- [Contents (Hardcoded)](#Contents%20(Hardcoded)), or 
+- [Contents (Hardcoded)](#contents-hard), or 
 - [Vault contents via Obsidian Dataview](#Vault%20contents%20via%20Obsidian%20Dataview) (which requires opening this vault in Obsidian with the Dataview plugin installed[^dataview]). 
 
 [^dataview]:  To install the [Obsidian](Obsidian.md) *Dataview* plugin go to Settings/Community Plugins/Browse, and search for Dataview. For documentation and demonstration see: 
 	- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
 	- [Nicole van der Hoeven - How to use the Obsidian Dataview plugin (YouTube)](https://www.youtube.com/watch?v=JTObSymEvWA)
 
-## Contents (Hardcoded)
+## Contents (Hardcoded) {#contents-hard}
 - [Recipe](TAGS/Recipe.md)
 - Software & tool apparatus:  
 	- [Markdown](Apparatus/Markdown.md)
@@ -99,10 +99,10 @@ See either:
 - Additional tools & Notes 
 	- [Markdown-Article-Guide](Articles/Markdown-Article-Guide.md)
 	- [Productivity applications](Additional/Productivity%20applications.md)
-	- [Libraries](Additional/Libraries.md) --a list of online libraries
-	- [Mensajito](Open%20Hardware/Mensajito.md) --open hardware for radio streaming
+	- [Libraries](Additional/Libraries.md)--a list of online libraries
 	- [Zettelkasten](Additional/Zettelkasten.md)
 	- [Bullet journaling](Additional/Bullet%20journaling.md)
+	- [Mensajito](Open%20Hardware/Mensajito.md)--open hardware for radio streaming
 
 ## Vault contents via Obsidian Dataview 
 ### DV: Map of Content (MOC) notes  
@@ -132,7 +132,7 @@ Table summary as Summary
 FROM "XTRAS/TEMPLATES"
 ```
 
-### DV: /Recipes ([Recipe tag](Recipe.md))
+### DV: /Recipes ([Recipe](TAGS/Recipe.md))
 
 ```dataview 
 TABLE title,summary, tags,date FROM "Recipes"
