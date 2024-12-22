@@ -6,7 +6,7 @@ tags:
   - library-management
   - cross-platform
 ---
-![](Calibre_logo.png)
+![Calibre|250](XIMG/logos/Calibre_logo.png)
 
 # About
 [Calibre](https://calibre-ebook.com/) is a *free & open source software* (FOSS) for e-book management & library organization. 

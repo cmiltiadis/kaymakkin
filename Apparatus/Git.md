@@ -7,6 +7,8 @@ tags:
   - software
 ---
 
+![git|250](XIMG/logos/git.png)
+
 # About 
 *Git* is a popular distributed version control system originally created by Linus Torvalds in 2005. 
 

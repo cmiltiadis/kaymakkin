@@ -9,7 +9,8 @@ tags:
   - knowledge-organization
 img: obsidian-logo-old.png
 ---
-![](obsidian-logo-old.png)
+
+![obsidian-logo-old](XIMG/logos/obsidian-logo-old.png)
 # About 
 
 [Obsidian](https://obsidian.md/) is a free cross-platform software for knowledge organization. 

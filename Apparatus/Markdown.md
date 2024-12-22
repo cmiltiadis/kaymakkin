@@ -6,7 +6,7 @@ tags:
   - free
   - Markdown
 ---
-![](Markdown-mark.svg)
+![](XIMG/logos/Markdown-mark.svg)
 # About 
 Markdown (MD) is a open simple markup language for human-friendly writing. 
 It was developed around 2004, and has grown very popular ever since. 
@@ -205,7 +205,7 @@ In plain text this looks like:
 
 # Images 
 
-![Description](Markdown-mark.svg)
+![Description](XIMG/logos/Markdown-mark.svg)
 
 ```
 ![Description](images/markdown-mark.svg)

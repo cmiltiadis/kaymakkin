@@ -13,6 +13,7 @@ Some popular libraries are:
 - [Ubu Web](https://www.ubu.com/) 
 - [Project Guttenberg](https://www.gutenberg.org/) 
 - [Sci-hub (Wikipedia)](https://en.wikipedia.org/wiki/Sci-Hub) 
+- [Anna's Archive](https://en.wikipedia.org/wiki/Anna%27s_Archive)
 # Notes 
 - https://monoskop.org/Shadow_libraries
 - https://shadowlibraries.github.io/

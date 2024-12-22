@@ -8,7 +8,7 @@ tags:
   - bibliographic-management
   - Markdown
 ---
-![](zotero.jpg)
+![Zotero|250](XIMG/logos/zotero.jpg)
 # About 
 [Zotero]( https://www.zotero.org/) is a cross-platform FOSS for  bibliographic reference and source management. 
 - Creating entries of bibliographic sources such as: 

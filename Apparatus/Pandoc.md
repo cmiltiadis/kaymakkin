@@ -13,7 +13,7 @@ tags:
 [Pandoc](https://pandoc.org/) is a *free and open source software* (FOSS), universal document converter. 
 In addition to converting documents, Pandoc can also render bibliographic citations. 
 
-![Pandoc](pandoc.png)
+![Pandoc|250](XIMG/logos/pandoc.png)
 # Usage 
  
 1. Install Pandoc via the installer.  
@@ -28,7 +28,7 @@ pandoc -i mydocument.md -o mydocument.docx
 
 # Pandoc for academic documents 
 
-See [[Guide for academic writing in Markdown]]. 
+See [[My Articles/Guide for academic writing in Markdown]]. 
 
 # Notes 
 - [Pandoc website](https://pandoc.org/)
