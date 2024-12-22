@@ -1,5 +1,5 @@
 ---
-title: Academic writing using Markdown
+title: Guide for Academic writing using Markdown
 author: 
 - Constantinos^[http://studioany.com]
 abstract: Guide for writing academic documents in Markdown, using Pandoc, Zotero, and optionally Obsidian. The document will render all sources in the referenced .bib file according to the referenced citations style (chicago-author-date). Citations are linked to bibliographic references.  

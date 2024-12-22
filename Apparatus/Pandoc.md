@@ -28,7 +28,7 @@ pandoc -i mydocument.md -o mydocument.docx
 
 # Pandoc for academic documents 
 
-See [Guide for academic writing in Markdown](My%20Articles/Guide%20for%20academic%20writing%20in%20Markdown.md). 
+See [Markdown-Article-Guide](Articles/Markdown-Article-Guide.md). 
 
 # Notes 
 - [Pandoc website](https://pandoc.org/)

@@ -10,7 +10,7 @@ tags:
 # About 
 Markdown (MD) is a open simple markup language for human-friendly writing. 
 It was developed around 2004, and has grown very popular ever since. 
-Markdown is used for a variety of applications, such as note-taking; technical documentation (e.g. GitHub, and Wikis), journaling, as well as [Zettelkasten](Zettelkasten.md) and [Bullet journaling](Bullet%20journaling.md) workflows. 
+Markdown is used for a variety of applications, such as note-taking; technical documentation (e.g. GitHub, and Wikis), journaling, as well as [Zettelkasten](Additional/Zettelkasten.md) and [Bullet journaling](Additional/Bullet%20journaling.md) workflows. 
 ## Why write in Markdown 
 1. It's a free and open standard 
 3. It's a **plain-text document format** 
@@ -19,7 +19,7 @@ Markdown is used for a variety of applications, such as note-taking; technical d
 1. You can chose from a variety of free and lightweight MD editors (software). 
 	3. You have a *fully customizable user interface*.... (no more Word white background)
 3. **Distraction free writing**  
-4. Adaptable for different purposes and workflows such as academic writing, [Zettelkasten](Zettelkasten.md) and [Bullet journaling](Bullet%20journaling.md). 
+4. Adaptable for different purposes and workflows such as academic writing, [Zettelkasten](Additional/Zettelkasten.md) and [Bullet journaling](Additional/Bullet%20journaling.md). 
 
 The following provides some instructions about
 - [#Writing in Markdown](#Writing%20in%20Markdown), 

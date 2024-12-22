@@ -10,4 +10,4 @@ csl: "../xtras/csl/chicago-author-date.csl"
 link-citations: true
 ---
 
-See guide at [Guide for academic writing in Markdown](My%20Articles/Guide%20for%20academic%20writing%20in%20Markdown.md)
+See guide at [Markdown-Article-Guide](Articles/Markdown-Article-Guide.md)

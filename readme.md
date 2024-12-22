@@ -23,7 +23,7 @@ Browse on [GitHub](https://github.com/cmiltiadis/kaymakkin), or download the rep
 - [Workshop structure](#Workshop%20structure)
 - [Vault folder structure](#Vault%20folder%20structure)
 - [Vault contents](#Vault%20contents)
-- See also the [Guide for academic writing in Markdown](My%20Articles/Guide%20for%20academic%20writing%20in%20Markdown.md)
+- See also the [Guide for academic writing in Markdown](Articles/Markdown-Article-Guide.md)
 # Workshop software & links 
 
 | name      | Vault entry                         | URL                            | Description                                                                             |
@@ -59,51 +59,50 @@ Additional directories
 # Workshop structure 
 
 Writing 
-+ [Obsidian](Obsidian.md) -- free software for note-taking, knowledge organization & [Zettelkasten](Zettelkasten.md) , using an extended version of Markdown)
-+ See also [Logseq](Logseq.md), a FOSS for [bullet journaling](Bullet%20journaling.md) & [Zettelkasten](Zettelkasten.md) using Markdown) 
++ [Obsidian](Apparatus/Obsidian.md) -- free software for note-taking, knowledge organization & [Zettelkasten](Additional/Zettelkasten.md) , using an extended version of Markdown)
++ See also [Logseq](Apparatus/Logseq.md), a FOSS for [Bullet journaling](Additional/Bullet%20journaling.md) & [Zettelkasten](Additional/Zettelkasten.md) using Markdown) 
 
 Document publishing
-+ [Pandoc](Pandoc.md) -- FOSS, universal document converter (that fully supports MD)
-	+ [PanWriter](PanWriter.md) -- FOSS [MD](Markdown.md) editor that provides a GUI for Pandoc  
++ [Pandoc](Apparatus/Pandoc.md)-- FOSS, universal document converter (that fully supports MD)
+	+ [PanWriter](Apparatus/PanWriter.md) -- FOSS [Markdown](Apparatus/Markdown.md) editor that provides a GUI for Pandoc  
 
 Web publishing 
-+ [Hugo](Hugo.md) -- FOSS, static website builder (that uses [MD](Markdown.md) files)
++ [Hugo](Apparatus/Hugo.md) -- FOSS, static website builder (that uses [Markdown](Apparatus/Markdown.md) files)
 
 Library organization   
-+ [Calibre](Calibre.md) -- General purpose e-book management 
-	+ [Accorder](Accorder.md) -- Command line tool for creating portable libraries via [Calibre](Calibre.md) 
-+ [Zotero](Zotero.md) -- Bibliographic reference management. 
++ [Calibre](Apparatus/Calibre.md) -- General purpose e-book management 
+	+ [Accorder](Apparatus/Accorder.md)--Command line tool for creating portable libraries via [Calibre](Apparatus/Calibre.md) 
++ [Zotero](Apparatus/Zotero.md)-- Bibliographic reference management. 
 
 # Vault contents 
 
-See
+See either: 
 - [Contents (Hardcoded)](#Contents%20(Hardcoded)), or 
 - [Vault contents via Obsidian Dataview](#Vault%20contents%20via%20Obsidian%20Dataview) (which requires opening this vault in Obsidian with the Dataview plugin installed[^dataview]). 
 
 [^dataview]:  To install the [Obsidian](Obsidian.md) *Dataview* plugin go to Settings/Community Plugins/Browse, and search for Dataview. For documentation and demonstration see: 
-- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
-- [Nicole van der Hoeven - How to use the Obsidian Dataview plugin (YouTube)](https://www.youtube.com/watch?v=JTObSymEvWA)
+	- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
+	- [Nicole van der Hoeven - How to use the Obsidian Dataview plugin (YouTube)](https://www.youtube.com/watch?v=JTObSymEvWA)
 
 ## Contents (Hardcoded)
-- [Recipes](Recipe.md)
+- [Recipe](TAGS/Recipe.md)
 - Software & tool apparatus:  
-	- [Markdown](Markdown.md)
-	- [Obsidian](Obsidian.md)
-	- [Calibre](Calibre.md)
-		- See also [Accorder](Accorder.md)
-	- [Zotero](Zotero.md)
-	- [Pandoc](Pandoc.md)
-		- [PanWriter](PanWriter.md) --FOSS Markdown editor and GUI interface for Pandoc. 
-	- [Git](Git.md) --versioning system
-	- [Hugo](Hugo.md) --static website builder that uses [MD](Markdown.md) files 
+	- [Markdown](Apparatus/Markdown.md)
+	- [Obsidian](Apparatus/Obsidian.md)
+	- [Calibre](Apparatus/Calibre.md)
+		- See also [Accorder](Apparatus/Accorder.md)
+	- [Zotero](Apparatus/Zotero.md)
+	- [Pandoc](Apparatus/Pandoc.md)
+		- [PanWriter](Apparatus/PanWriter.md) --FOSS Markdown editor and GUI interface for Pandoc. 
+	- [Git](Apparatus/Git.md) --versioning system
+	- [Hugo](Apparatus/Hugo.md) --static website builder that uses [Markdown](Apparatus/Markdown.md) files 
 - Additional tools & Notes 
-	- [Guide for academic writing in Markdown](My%20Articles/Guide%20for%20academic%20writing%20in%20Markdown.md)
-	- [Productivity applications](Productivity%20applications.md)
-	- [Libraries](Libraries.md) --a list of online libraries
-	- [Mensajito](Mensajito.md) --open hardware for radio streaming
-	- [Zettelkasten](Zettelkasten.md)
-	- [Bullet journaling](Bullet%20journaling.md)
-
+	- [Markdown-Article-Guide](Articles/Markdown-Article-Guide.md)
+	- [Productivity applications](Additional/Productivity%20applications.md)
+	- [Libraries](Additional/Libraries.md) --a list of online libraries
+	- [Mensajito](Open%20Hardware/Mensajito.md) --open hardware for radio streaming
+	- [Zettelkasten](Additional/Zettelkasten.md)
+	- [Bullet journaling](Additional/Bullet%20journaling.md)
 
 ## Vault contents via Obsidian Dataview 
 ### DV: Map of Content (MOC) notes  

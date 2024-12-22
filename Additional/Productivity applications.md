@@ -17,7 +17,7 @@ tags:
   Cross-platform FOSS browser developed by maintained by [Google](Google). 
   
 # Email & messaging clients 
-- [Element](Element.md)  
+- [Element](Additional/Element.md)  
   Cross-platform FOSS application that implements the [Matrix](Matrix) protocol 
 - Desktop apps for organizing messaging and email clients 
 	- [Ferdium](Ferdium.md) FOSS; cross-platform)
