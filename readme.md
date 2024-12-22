@@ -76,16 +76,12 @@ Library organization
 
 # Vault contents 
 
-See either: 
-- [Contents (Hardcoded)](#contents-hard), or 
-- [Vault contents via Obsidian Dataview](#Vault%20contents%20via%20Obsidian%20Dataview) (which requires opening this vault in Obsidian with the Dataview plugin installed[^dataview]). 
+## [Obsidian](Apparatus/Obsidian.md) graph screenshot 
 
-[^dataview]:  To install the [Obsidian](Obsidian.md) *Dataview* plugin go to Settings/Community Plugins/Browse, and search for Dataview. For documentation and demonstration see: 
-	- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
-	- [Nicole van der Hoeven - How to use the Obsidian Dataview plugin (YouTube)](https://www.youtube.com/watch?v=JTObSymEvWA)
+![vault-graph-latest](XIMG/vault/vault-graph-latest.png)
 
-## Contents (Hardcoded) {#contents-hard}
-- [Recipe](TAGS/Recipe.md)
+## Contents (Hardcoded) 
+- [Recipe](TAGS/Recipe.md) (MOC)
 - Software & tool apparatus:  
 	- [Markdown](Apparatus/Markdown.md)
 	- [Obsidian](Apparatus/Obsidian.md)
@@ -104,7 +100,8 @@ See either:
 	- [Bullet journaling](Additional/Bullet%20journaling.md)
 	- [Mensajito](Open%20Hardware/Mensajito.md)--open hardware for radio streaming
 
-## Vault contents via Obsidian Dataview 
+## Vault contents generated with the Obsidian [Dataview](Additional/Dataview.md) plugin 
+(visible only in Obsidian with the plugin installed)
 ### DV: Map of Content (MOC) notes  
 
 ```dataview
