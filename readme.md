@@ -13,6 +13,9 @@ This repository is a resource on free and open source software (FOSS) and workfl
 
 The repository was put together as an [Obsidian](Apparatus/Obsidian.md) vault, and contains multiple [Markdown](Apparatus/Markdown.md) with extensive information on components of the workshop. 
 
+Browse on [GitHub](https://github.com/cmiltiadis/kaymakkin), or download the repository and open it as an [Obsidian](Apparatus/Obsidian.md) vault. 
+
+
 ![Kaymakkin|150](XIMG/logos/kaymakkin.jpg)
 
 # Outline 
