@@ -28,9 +28,9 @@ pandoc -i mydocument.md -o mydocument.docx
 
 # Pandoc for academic documents 
 
-See [[My Articles/Guide for academic writing in Markdown]]. 
+See [Guide for academic writing in Markdown](My%20Articles/Guide%20for%20academic%20writing%20in%20Markdown.md). 
 
 # Notes 
 - [Pandoc website](https://pandoc.org/)
 - See also the Pandoc [citeproc](https://github.com/jgm/citeproc) library, responsible for generating citations and formatting bibliographies for Pandoc. 
-- See also the MD editor [[PanWriter]], which provides a GUI for Pandoc. 
+- See also the MD editor [PanWriter](PanWriter.md), which provides a GUI for Pandoc. 

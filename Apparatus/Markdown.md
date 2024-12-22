@@ -10,7 +10,7 @@ tags:
 # About 
 Markdown (MD) is a open simple markup language for human-friendly writing. 
 It was developed around 2004, and has grown very popular ever since. 
-Markdown is used for a variety of applications, such as note-taking; technical documentation (e.g. GitHub, and Wikis), journaling, as well as [[Zettelkasten]] and [[Bullet journaling]] workflows. 
+Markdown is used for a variety of applications, such as note-taking; technical documentation (e.g. GitHub, and Wikis), journaling, as well as [Zettelkasten](Zettelkasten.md) and [Bullet journaling](Bullet%20journaling.md) workflows. 
 ## Why write in Markdown 
 1. It's a free and open standard 
 3. It's a **plain-text document format** 
@@ -19,11 +19,11 @@ Markdown is used for a variety of applications, such as note-taking; technical d
 1. You can chose from a variety of free and lightweight MD editors (software). 
 	3. You have a *fully customizable user interface*.... (no more Word white background)
 3. **Distraction free writing**  
-4. Adaptable for different purposes and workflows such as academic writing, [[Zettelkasten]] and [[Bullet journaling]]. 
+4. Adaptable for different purposes and workflows such as academic writing, [Zettelkasten](Zettelkasten.md) and [Bullet journaling](Bullet%20journaling.md). 
 
 The following provides some instructions about
-- [[#Writing in Markdown]], 
-- [[#Publishing Markdown documents]]
+- [#Writing in Markdown](#Writing%20in%20Markdown), 
+- [#Publishing Markdown documents](#Publishing%20Markdown%20documents)
 
 # Writing in Markdown 
 
@@ -168,7 +168,7 @@ Note that columns need not be visually aligned. For example, the following table
 
 ```
 
-Markdown editors such as [[Obsidian]] provide autoformatting for tables (see [[Obsidian#Useful tips]]). 
+Markdown editors such as [Obsidian](Obsidian.md) provide autoformatting for tables (see [](Obsidian.md#Useful%20tips)). 
 ## Source code blocks 
 
 Enclose code in backticks \` 
@@ -237,7 +237,7 @@ multi-line
 
 # Publishing Markdown documents 
 
-Markdown is fully supported by [[Pandoc]],  the universal document converter. 
+Markdown is fully supported by [Pandoc](Pandoc.md),  the universal document converter. 
 #  Notes 
 - [Markdown guide](https://www.markdownguide.org/)
 - [Markdown (wikipedia)](https://en.wikipedia.org/wiki/Markdown)

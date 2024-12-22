@@ -56,20 +56,20 @@ Additional directories
 # Workshop structure 
 
 Writing 
-+ [[Obsidian]] -- free software for note-taking, knowledge organization & [[Zettelkasten]] , using an extended version of Markdown)
-+ See also [[Logseq]], a FOSS for [[Bullet journaling|bullet journaling]] & [[Zettelkasten]] using Markdown) 
++ [Obsidian](Obsidian.md) -- free software for note-taking, knowledge organization & [Zettelkasten](Zettelkasten.md) , using an extended version of Markdown)
++ See also [Logseq](Logseq.md), a FOSS for [bullet journaling](Bullet%20journaling.md) & [Zettelkasten](Zettelkasten.md) using Markdown) 
 
 Document publishing
-+ [[Pandoc]] -- FOSS, universal document converter (that fully supports MD)
-	+ [[PanWriter]] -- FOSS [[Markdown|MD]] editor that provides a GUI for Pandoc  
++ [Pandoc](Pandoc.md) -- FOSS, universal document converter (that fully supports MD)
+	+ [PanWriter](PanWriter.md) -- FOSS [MD](Markdown.md) editor that provides a GUI for Pandoc  
 
 Web publishing 
-+ [[Hugo]] -- FOSS, static website builder (that uses [[Markdown|MD]] files)
++ [Hugo](Hugo.md) -- FOSS, static website builder (that uses [MD](Markdown.md) files)
 
 Library organization   
-+ [[Calibre]] -- General purpose e-book management 
-	+ [[Accorder]] -- Command line tool for creating portable libraries via [[Calibre]] 
-+ [[Zotero]] -- Bibliographic reference management. 
++ [Calibre](Calibre.md) -- General purpose e-book management 
+	+ [Accorder](Accorder.md) -- Command line tool for creating portable libraries via [Calibre](Calibre.md) 
++ [Zotero](Zotero.md) -- Bibliographic reference management. 
 
 # Vault contents 
 
@@ -77,29 +77,29 @@ See
 - [Contents (Hardcoded)](#Contents%20(Hardcoded)), or 
 - [Vault contents via Obsidian Dataview](#Vault%20contents%20via%20Obsidian%20Dataview) (which requires opening this vault in Obsidian with the Dataview plugin installed[^dataview]). 
 
-[^dataview]:  To install the [[Obsidian]] *Dataview* plugin go to Settings/Community Plugins/Browse, and search for Dataview. For documentation and demonstration see: 
+[^dataview]:  To install the [Obsidian](Obsidian.md) *Dataview* plugin go to Settings/Community Plugins/Browse, and search for Dataview. For documentation and demonstration see: 
 - [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
 - [Nicole van der Hoeven - How to use the Obsidian Dataview plugin (YouTube)](https://www.youtube.com/watch?v=JTObSymEvWA)
 
 ## Contents (Hardcoded)
-- [[Recipe|Recipes]]
+- [Recipes](Recipe.md)
 - Software & tool apparatus:  
-	- [[Markdown]]
-	- [[Obsidian]]
-	- [[Calibre]]
-		- See also [[Accorder]]
-	- [[Zotero]]
-	- [[Pandoc]]
-		- [[PanWriter]] --FOSS Markdown editor and GUI interface for Pandoc. 
-	- [[Git]] --versioning system
-	- [[Hugo]] --static website builder that uses [[Markdown|MD]] files 
+	- [Markdown](Markdown.md)
+	- [Obsidian](Obsidian.md)
+	- [Calibre](Calibre.md)
+		- See also [Accorder](Accorder.md)
+	- [Zotero](Zotero.md)
+	- [Pandoc](Pandoc.md)
+		- [PanWriter](PanWriter.md) --FOSS Markdown editor and GUI interface for Pandoc. 
+	- [Git](Git.md) --versioning system
+	- [Hugo](Hugo.md) --static website builder that uses [MD](Markdown.md) files 
 - Additional tools & Notes 
-	- [[My Articles/Guide for academic writing in Markdown]]
-	- [[Productivity applications]]
-	- [[Libraries]] --a list of online libraries
-	- [[Mensajito]] --open hardware for radio streaming
-	- [[Zettelkasten]]
-	- [[Bullet journaling]]
+	- [Guide for academic writing in Markdown](My%20Articles/Guide%20for%20academic%20writing%20in%20Markdown.md)
+	- [Productivity applications](Productivity%20applications.md)
+	- [Libraries](Libraries.md) --a list of online libraries
+	- [Mensajito](Mensajito.md) --open hardware for radio streaming
+	- [Zettelkasten](Zettelkasten.md)
+	- [Bullet journaling](Bullet%20journaling.md)
 
 
 ## Vault contents via Obsidian Dataview 
@@ -130,7 +130,7 @@ Table summary as Summary
 FROM "XTRAS/TEMPLATES"
 ```
 
-### DV: /Recipes ([[Recipe|Recipe tag]])
+### DV: /Recipes ([Recipe tag](Recipe.md))
 
 ```dataview 
 TABLE title,summary, tags,date FROM "Recipes"

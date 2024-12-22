@@ -11,7 +11,7 @@ tags:
   - CY
 ---
 # About
-This is a [[Recipe|recipe]] for tahini dip, a vegan, easy-to-make nutritious dip, popular in Cyprus and the Levant.   
+This is a [recipe](Recipe.md) for tahini dip, a vegan, easy-to-make nutritious dip, popular in Cyprus and the Levant.   
 # Ingredients 
 1. Tahini paste 
 2. Lemons 

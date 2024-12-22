@@ -10,6 +10,6 @@ tags:
   - Bullet-journaling
 ---
  
-*Logseq* is a FOSS for [[Bullet journaling]] and project management. It uses [[Markdown]] files. 
+*Logseq* is a FOSS for [Bullet journaling](Bullet%20journaling.md) and project management. It uses [Markdown](Markdown.md) files. 
 # Notes
 - [Logseq website](https://logseq.com/)

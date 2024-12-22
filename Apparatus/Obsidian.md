@@ -14,9 +14,9 @@ img: obsidian-logo-old.png
 # About 
 
 [Obsidian](https://obsidian.md/) is a free cross-platform software for knowledge organization. 
-It uses [[Markdown]] files (called Notes), organized in custom folders, within a Vault (a master folder).  
+It uses [Markdown](Markdown.md) files (called Notes), organized in custom folders, within a Vault (a master folder).  
 Obsidian provides a user-friendly interface for Markdown formatting. 
-Moreover, it uses its own [[#Obsidian-specific syntax|extended Markdown syntax]]. 
+Moreover, it uses its own [extended Markdown syntax](#Obsidian-specific%20syntax). 
 
 Obsidian is free to use.
 However, it's not open source.
@@ -24,13 +24,13 @@ Nevertheless, all content created with Obsidian is stored locally, and is thus s
 A paid subscription is only required for syncing vaults with the Obsidian cloud.
 
 Go to: 
-- [[#Interface]], 
-- [[#Obsidian-specific syntax]], 
-- [[#Plugins]], 
-- [[#Note Templates]], 
-- [[#Useful tips]]
-- [[#Useful shortcuts]]
-- [[#Notes]]
+- [#Interface](#Interface), 
+- [#Obsidian-specific syntax](#Obsidian-specific%20syntax), 
+- [#Plugins](#Plugins), 
+- [#Note Templates](#Note%20Templates), 
+- [#Useful tips](#Useful%20tips)
+- [#Useful shortcuts](#Useful%20shortcuts)
+- [#Notes](#Notes)
 
 # Interface 
 
@@ -54,11 +54,11 @@ Panes:
 
 # Obsidian-specific syntax 
 
-Obsidian makes use of [[Markdown]] files and Markdown syntax, however, it features its own extended syntax, most notably the use of double square brackets used for links.
+Obsidian makes use of [Markdown](Markdown.md) files and Markdown syntax, however, it features its own extended syntax, most notably the use of double square brackets used for links.
 ## Internal Hyperlinks
 Create hyperlinks by enclosing the name of a Note inside double square brackets: 
 ```
-[[Some note]]
+[Some note](Some%20note)
 ```
 
 This will create a hyperlink to "*Some note*", which will appear in the graph, regardless of whether a file named "Something.md" exists. 
@@ -68,7 +68,7 @@ This is useful, particularly for making links for notes to be populated later.
 Similarly to link to a subsection of a note do: 
 
 ```
-[[Some Note#Subsection title]]
+[](Some%20Note#Subsection%20title)
 ```
 
 Upon opening two square brackets, for creating a hyperlink, Obsidian will pop up a searchable list of available notes. Similarly, it will pop up a list of available subsections, immediately after pressing the hashtag key.
@@ -80,7 +80,7 @@ By default the text of a hyperlink to some Note or Note section, is the same to 
 To customize the label of the link, add some custom text after a pipe character: 
 
 ```
-[[Some note|Custom label]]
+[Custom label](Some%20note)
 ```
 
 ## Quote content Note
@@ -88,18 +88,18 @@ To customize the label of the link, add some custom text after a pipe character:
 To quote the contents of a Note, or a note subsection, add an exclamation point before an internal hyperlink or hyperlink to a subsection.  
 
 ```
-![[Note to quote]]
-![[Notes#Sub section to quote]]
+![Note to quote](Note%20to%20quote)
+![](Notes#Sub%20section%20to%20quote)
 ```
 ## Image & file links  
 
-Instead of the  [[Markdown#Images|Markdown convention for images]], Obsidian uses it's own convention that does not require referencing the full path of an image. 
+Instead of the  [](Markdown.md#Images|Markdown%20convention%20for%20images), Obsidian uses it's own convention that does not require referencing the full path of an image. 
 For example: 
 ```
-![[2023_Obsidian_logo.svg]]
+![2023_Obsidian_logo.svg](2023_Obsidian_logo.svg)
 ```
 ## Comments
-In addition to the hyperlink-format comment supported by [[Markdown]],  Obsidian uses its own convention for comments: 
+In addition to the hyperlink-format comment supported by [Markdown](Markdown.md),  Obsidian uses its own convention for comments: 
 
 ```
 <!-- This is a Markdown line comment  -->
@@ -157,9 +157,9 @@ See also [Dann Berg - How to create a template in Obsidian (Beginner's Tutorial)
 	- To paste in plain text do Cmd/Ctrl+Shift+V 
 - The font, font-size, dark/light appearance of the Obsidian editor can be changed in the settings. 
 - All Obsidian commands are accessible via Ctrl/Cmd+P, and can be assigned to custom keyboard shortcuts. 
-- Obsidian vaults can be backed up, synchronized, and versioned using [[Git]].  
+- Obsidian vaults can be backed up, synchronized, and versioned using [Git](Git.md).  
 - Obsidian can also be used as a straight-forward Markdown editor--by ignoring its features. 
-- Obsidian can convert and export PDFs (from individual Notes), however, by default it doesn't use the [[Markdown]] line and paragraph conventions (see [[Markdown#Lines & Paragraphs]]). 
+- Obsidian can convert and export PDFs (from individual Notes), however, by default it doesn't use the [Markdown](Markdown.md) line and paragraph conventions (see [](Markdown.md#Lines%20&%20Paragraphs)). 
 - To insert a table in Obsidian, right click Insert/Table.
 - Obsidian also provides a mouse-interface for deleting and adding rows and columns.  
 - Alternatively, start creating a table manually, and Obsidian will generate a visually aligned table automatically. For example 
@@ -196,9 +196,9 @@ After a Community plugin is installed, it appears at the bottom of the settings 
 Remember to enable each plugin after installing it. 
 ## Notable community plugins 
 - [Templater](https://github.com/SilentVoid13/Templater) -- a plugin for advanced template configurations. 
-- Pandoc -- an interface for [[Pandoc]] 
-- Zotero Integration -- an interface for[[Zotero]]
-- Git -- an interface for [[Git]] versioning
+- Pandoc -- an interface for [Pandoc](Pandoc.md) 
+- Zotero Integration -- an interface for[Zotero](Zotero.md)
+- Git -- an interface for [Git](Git.md) versioning
 - [Dataview](https://blacksmithgu.github.io/obsidian-dataview/), for dynamically creating lists or tables from Vault content.  
 # Notes 
 - https://obsidian.md/

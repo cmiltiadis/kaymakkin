@@ -10,7 +10,7 @@ tags:
 
 # About 
 
-This is an easy [[Recipe|recipe]] for making half-decent pizza at home.
+This is an easy [recipe](Recipe.md) for making half-decent pizza at home.
 
 ---
 

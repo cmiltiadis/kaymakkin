@@ -11,6 +11,6 @@ tags:
   - federated
 ---
 
-*Element* is a cross-platform (FOSS) client application that implements the [[Matrix]] protocol, and is therefore secure, encrypted and designed to implement a distributed architecture. 
+*Element* is a cross-platform (FOSS) client application that implements the [Matrix](Matrix) protocol, and is therefore secure, encrypted and designed to implement a distributed architecture. 
 # Notes
 - [Element.io](https://element.io/)

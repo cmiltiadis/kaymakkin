@@ -22,7 +22,7 @@ Calibre also allows
 
 [^formats]: https://manual.calibre-ebook.com/faq.html
 # Basic use 
-2. To **add e-books** simply drag and drop your e-books (PDFs, epub, mobi, etc. see [[#Supported formats]])
+2. To **add e-books** simply drag and drop your e-books (PDFs, epub, mobi, etc. see [#Supported formats](#Supported%20formats))
 3. To **add/edit metadata** per item, select a file, and go to *Edit Metadata* (or press E). There multiple ways to add metadata. 
 	2. Manually: fill in the details manually.  
 	3. go to IDs and add for example `isbn:123-1456-1235-25` and select *Download Metadata* (ore press D), or 

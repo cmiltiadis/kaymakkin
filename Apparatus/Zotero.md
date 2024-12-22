@@ -22,7 +22,7 @@ tags:
 	- etc. 
 - Add files for each entry (eg a PDF)
 - Read, highlight and annotate PDFs; extract highlights and annotations to notes. 
-- Create notes in [[Markdown]] syntax. 
+- Create notes in [Markdown](Markdown.md) syntax. 
 - Organize collection through: 
 	- custom tags, 
 	- folders and subfolders. 
